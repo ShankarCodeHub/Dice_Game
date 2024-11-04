@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: grey;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.player {
+    border: 2px solid #333;
+    padding: 20px;
+    width: 150px;
+    background-color: rgb(203, 64, 14);
+    border-radius: 10px;
+}
+
+.dice {
+    font-size: 50px;
+    margin-top: 10px;
+    color: rgb(94, 0, 128);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #333;
+    color: white    ;
+    border: none;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
